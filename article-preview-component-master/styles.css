@@ -1,0 +1,131 @@
+body {
+  font-family: "Manrope", sans-serif !important;
+  background-color: hsl(210, 2%, 84%) !important;
+}
+#Container {
+  margin: 2rem 2rem !important;
+  border-radius: 10px;
+  background-color: white;
+}
+#PImg {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+}
+#dImage {
+  width: 40px;
+  height: 40px;
+}
+#Designer {
+  line-height: 0.5rem;
+}
+#Designer h5 {
+  font-size: 1rem;
+}
+#Designer p {
+  font-size: 0.75rem;
+}
+#SM img {
+  margin: 0 0.5rem;
+}
+#SM p {
+  margin: 0 1rem 0 2rem;
+}
+.noMargin {
+  margin: 0 !important;
+}
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: hsl(217, 19%, 35%);
+}
+.subtitle {
+  margin-top: 2vh;
+  font-size: 13px;
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  line-height: 20px;
+}
+.Designer {
+  width: 7vh;
+  height: 7vh;
+  margin: 0 2vh;
+  border-radius: 100px;
+}
+.date {
+  color: hsl(212, 23%, 69%);
+}
+.DarkColor {
+  color: hsl(217, 19%, 35%);
+}
+.ShareDarkBG {
+  background-color: hsl(214, 17%, 51%);
+}
+.ShareWord {
+  color: hsl(212, 23%, 69%);
+  letter-spacing: 5px;
+}
+.footerElement {
+  float: left;
+}
+.popup {
+  padding: 0 !important;
+  padding-left: 10px !important;
+  padding-top: 7px !important;
+  width: 30px !important;
+  height: 30px !important;
+  margin-left: 45px;
+  background-color: hsl(213, 13%, 86%);
+  border-radius: 100%;
+  box-sizing: unset !important;
+  cursor: pointer;
+}
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: hsl(217, 19%, 35%);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0 0 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.popuptext .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
